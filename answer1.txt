@@ -1,0 +1,3 @@
+nc infd.birdnest.org 80
+GET /~acc.besmera2/simulators/FormData/echo.php?username=swansond3&id=W30227829&email=swansond3%40winthrop.edu http:/1.1
+Host: infd.birdnest.org

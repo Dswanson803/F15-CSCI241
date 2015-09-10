@@ -1,0 +1,7 @@
+nc infd.birdnest.org 80
+POST /~acc.besmera2/simulators/FormData/echo.php?username=swansond3&id=W30227829&email=swansond3%40winthrop.edu http:/1.1
+Host: infd.birdnest.org
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 112
+
+Title=CSCI241%20HTTP%20Requests%21&Content=I%27m%20sending%20raw%20HTTP%20requests%2C%20and%2C%20it%27s%20fun%21
