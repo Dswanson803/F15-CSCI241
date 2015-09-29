@@ -1,0 +1,43 @@
+html {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+h1 {
+	padding: 5px;
+}
+
+table td {
+	padding: 5px;
+}
+
+/* Bolds the subtotal, tax, and total */
+.important {
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+}
+
+/* Displays a line above the total  */
+.total {
+	border-top: 2px solid;
+}
+
+.button {
+	padding: 5px;
+	width: 100px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.checkbox {
+	margin: 5px 0px 0px 0px;
+}
+
+.data {
+	margin: 5px;
+	font-weight: bold;
+}
