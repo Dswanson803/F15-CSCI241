@@ -1,0 +1,54 @@
+html {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+
+p {
+	padding: 0px 10px;
+	margin: 5px;
+}
+
+h1 {
+	padding: 0px 0px 0px 5px;
+	margin: 10px;
+}
+
+h2 {
+	padding: 10px 0px 0px 10px;
+	margin: 5px;
+}
+
+.get-table {
+	margin: 10px 10px 0px 10px;
+}
+
+.get-table td {
+	min-width: 100px;
+	padding: 5px 5px;
+	border: none;
+}
+
+.button {
+	margin: 15px;
+	padding: 5px 15px;
+}
+
+table {
+	margin: 1px 10px 0px 15px;
+	border-collapse: collapse;
+}
+
+table td {
+	min-width: 20px;
+	padding: 5px 20px;
+	border: 1px solid;
+}
+
+table th {
+	min-width: 20px;
+	padding: 5px 20px;
+	border: 1px solid;
+	background: #65ABDA;
+	color: white;
+}
