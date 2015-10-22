@@ -22,11 +22,11 @@
 				if($_POST["start"] > $_POST["end"]){
 					$end = $_POST["start"];
 					$start = $_POST["end"];
-					$difference = $end - $start;
+					$difference = $end - $start; //Dos Protection
 				} else {
 					$end = $_POST["end"];
 					$start = $_POST["start"];
-					$difference = $end - $start;
+					$difference = $end - $start; //Dos Protection
 				}
 				if(is_numeric($start) && is_numeric($end) && $difference < 100) {
 					$test = (int) $start;
