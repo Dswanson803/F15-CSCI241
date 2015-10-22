@@ -22,11 +22,13 @@
 				if($_POST["start"] > $_POST["end"]){
 					$end = $_POST["start"];
 					$start = $_POST["end"];
+					$difference = $end - $start;
 				} else {
 					$end = $_POST["end"];
 					$start = $_POST["start"];
+					$difference = $end - $start;
 				}
-				if(is_numeric($start) && is_numeric($end)) {
+				if(is_numeric($start) && is_numeric($end) && $difference < 100) {
 					$test = (int) $start;
 					$test2 = (int) $end;
 					if($test == $start && $end == $test2){
