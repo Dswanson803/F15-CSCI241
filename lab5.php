@@ -25,12 +25,13 @@
 				$employeeName = $_POST["employeeName"];
 				$hourlyWage = $_POST["hourlyWage"];
 				$hoursWorked = $_POST["hoursWorked"];
+				$minimumWage = 7.25;
 				
 				echo "<h1>Paystub</h1>"; //page title
 				echo "<p>Name: " . $employeeName . "</p>";
 				echo "<p>ID: " . $employeeId . "</p>";
 				
-				if(is_numeric($hourlyWage) && is_numeric($hoursWorked))
+				if(is_numeric($hourlyWage) && is_numeric($hoursWorked) && $hourlyWage >= $minimumWage)
 				{
 					$overTime = overTimeHours($hoursWorked);
 					$finalPay = finalPay($hoursWorked, $overTime, $hourlyWage);
