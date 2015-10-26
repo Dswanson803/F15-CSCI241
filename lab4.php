@@ -28,7 +28,7 @@
 					$start = $_POST["start"];
 					$difference = $end - $start; //Dos Protection
 				}
-				if(is_numeric($start) && is_numeric($end) && $difference < 100) {
+				if(is_numeric($start) && is_numeric($end) && abs($difference) < 100) {
 					$test = (int) $start;
 					$test2 = (int) $end;
 					if($test == $start && $end == $test2){
