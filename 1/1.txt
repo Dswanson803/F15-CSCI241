@@ -1,0 +1,5 @@
+$cookieContent = array(0,0);
+$cookieContent[] = "Is not that bad!";
+$cookieContent[] = "Is in the way of my break!";
+
+setrawcookie ( "finalExamCookie", base64_encode(implode("|", $cookieContent)), time()+3600 );

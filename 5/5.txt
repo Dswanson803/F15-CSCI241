@@ -1,0 +1,7 @@
+The PRG Pattern is a redirect method used to prevent double posting problems. It works by
+having the user submission to be sent as a POST request. Once this has gone through you
+redirect using a GET request which sends the conformation page. This redirect prevents users
+from making errors such as refreshing the webpage, and resubmitting the POST request that is
+taking money from them, or something along those lines.
+
+To fix a PRG error, you can include a header() function to redirect the user.
